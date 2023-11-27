@@ -1,6 +1,21 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 20px;
+   
+}
+body header{
+    background-color: #800080;
+    margin: 0;
+    padding: 60px;
+}
+header ul{
+    margin: 0px;
+}
+.logo a{
+    padding: 10px;
+    background-color: #333;
 }
 main{
     display: flex ;
@@ -10,12 +25,21 @@ main{
 
 main article{
     flex :2 ;
-    overflow-y: auto
+    overflow-y: auto;
+    text-align: center;
 
 }
 
 main aside{
     flex: 1;
-    overflow-y: auto
+    overflow-y: auto;
+    text-align: center;
 
+}
+
+
+footer {
+    margin: 20;
+    padding: 10;
+    background-color: #161616;
 }
