@@ -16,4 +16,4 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - The difference between the main and cross axes
 - Properties that work on flex elements vs flex container
 - Shorthands for flex
-
+- How to create a new page with flex in mind
