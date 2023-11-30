@@ -4,3 +4,11 @@
     font-family: "popins" , sans-serif;
     box-sizing: border-box;
 }
+.container{
+    width: 100%;
+    min-height: 100%;
+    background-image: linear-gradient(rgba (9,0,77,0,65)),(rgba (9,0,77,0,65)), url(images/headphones_hero_1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
