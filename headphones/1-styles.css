@@ -93,6 +93,7 @@ p{
     /* what we do section*/
     .what-we-do-section{
         background-color: white;
+        width: 100%;
        
       
     }
@@ -120,11 +121,24 @@ p{
         font-style: normal;
         font-weight: 400;
         line-height: 26px;
-        justify-content: center;
-        align-items: center;
+     
 
     }
     .what-we-do-container .icons-continer {
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 8px;
+        text-align: center;
+        align-items: center;
+       
+    
+    }
+    .icons-continer .w-icon {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+       
+
+
     }
