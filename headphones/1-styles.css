@@ -8,8 +8,7 @@ header .nav-wrapper{
     display: flex;
     justify-content : space-between;
     align-items:center;
-    padding: 21px 140px;
-   
+    padding:21px 140px; 
 }
 
 .nav-wrapper .logo-img a img {
@@ -22,13 +21,23 @@ header .nav-wrapper{
     
 }
 .nav-wrapper .menu a{
-    font-size: 10px;
-    font: weight 300px;
+    font-size:10px;
+    font-weight: 300px;
     color: white;
     text-decoration: none;
 }
+.menu a:hover {
+    color:#FF6565 ;
+}
 
-body{
-    background-image:url(./images/headphones_hero_1.jpg) cover no-repeat;
+body {
+    background-image: url(./images/headphones_hero_1.jpg);
 
+}
+
+/*--main--*/
+/*---title section---*/
+
+main .title-section {
+    display: flex; 
 }
