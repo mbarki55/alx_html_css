@@ -1,13 +1,28 @@
 header {
     width: 100%;
 }
-header.nav-wrapper{
+
+header .nav-wrapper{
     display: flex;
     justify-content : space-between;
     align-items:center;
+    padding: 21px 140px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
 }
 
-.nav-wrapper .logo-img {
-    width: 180px;
+.nav-wrapper .logo-img a img {
+    width: 169px;
+    }
 
+.nav-wrapper .menu{
+    display: flex;
+    gap: 30px;
+    font-size: 10px;
+    font-weight:300;
+    color: white;
+}
+
+body{
+    background-image: url(./images/headphones_hero_1.jpg) cover no-repeat;
 }
