@@ -25,9 +25,10 @@ header .nav-wrapper{
     font-size: 10px;
     font: weight 300px;
     color: white;
+    text-decoration: none;
 }
 
 body{
     background-image:url(./images/headphones_hero_1.jpg) cover no-repeat;
-    
+
 }
