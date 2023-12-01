@@ -1,7 +1,13 @@
-.nav-wrapper{
+header {
+    width: 100%;
+}
+header.nav-wrapper{
     display: flex;
     justify-content : space-between;
+    align-items:center;
 }
-Header {
-    width: 100%;
- }
+
+.nav-wrapper .logo-img {
+    width: 180px;
+
+}
