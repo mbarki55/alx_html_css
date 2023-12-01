@@ -32,6 +32,10 @@ header .nav-wrapper{
 
 body {
     background-image: url(./images/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: 'Source Sans Pro';
+
 
 }
 
@@ -42,6 +46,25 @@ main .title-section .title-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
+    padding: auto;
+    align-items: center;
+}
+.title-container .title {
+    color: #FFF;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    margin: auto;
+
+}
+.title-container .subtitle {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    
 }
 
 .title-container button {
@@ -54,8 +77,54 @@ main .title-section .title-container {
     cursor: pointer;
     font-size:  14px;
     font-weight: 700;
-    font-family: Source Sans Pro;
     text-align: center;
-    margin: 3rem; 
-  
+    margin: 100px; 
 }
+
+p{
+    width: 637px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    justify-content: center;
+   
+    }
+    /* what we do section*/
+    .what-we-do-section{
+        background-color: white;
+       
+      
+    }
+    .what-we-do-section .what-we-do-container {
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        align-items: center;
+        text-align: center;
+      }
+    .what-we-do-section .what-we-do-container h1{
+        color: #071629;
+        text-align: center;
+        font-family: 'SourceSansPro';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        margin-top: 90px;
+
+    }
+    .what-we-do-container p {
+        color: #071629;
+        text-align: center;    
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .what-we-do-container .icons-continer {
+        display: flex;
+        flex-wrap: wrap;
+    }
