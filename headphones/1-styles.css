@@ -81,19 +81,23 @@ main .title-section .title-container {
     margin: 100px; 
 }
 
-p{
+.title-container p {
     width: 637px;
     color: #FFF;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     justify-content: center;
-   
+    padding-top:80px;
+    
     }
     /* what we do section*/
     .what-we-do-section{
-        background-color: white;
-        width: 100%;
+       position: relative;
+       top: 200px;
+       right: 0;
+       left: 0;
+       width: 100%;
        
       
     }
@@ -111,7 +115,7 @@ p{
         font-size: 32px;
         font-style: normal;
         font-weight: 600;
-        margin-top: 90px;
+        margin-top: 30px;
 
     }
     .what-we-do-container p {
@@ -121,15 +125,17 @@ p{
         font-style: normal;
         font-weight: 400;
         line-height: 26px;
-     
-
+        padding: 0 20%;
     }
+
+
     .what-we-do-container .icons-continer {
         display: flex;
         flex-direction: row;
         gap: 8px;
         text-align: center;
         align-items: center;
+        padding-bottom: 5%;
        
     
     }
@@ -138,7 +144,10 @@ p{
         flex-direction: column;
         text-align: center;
         align-items: center;
-       
+    }
 
+    .w-icon span {
 
+        color:#FF6565;
+        font-size: 94px;
     }
