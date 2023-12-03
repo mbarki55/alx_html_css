@@ -164,7 +164,7 @@ main .title-section .title-container {
         top: 190px;
         right: 0;
         left: 0;
-        height: 90vh;
+        height: 101vh;
         
                 
      }
@@ -201,39 +201,50 @@ main .title-section .title-container {
 
     /*---"pentagone" section---*/
     
-   .pentagone-section {
-   width: 100%;
-   
-    
-   }
+
 
    .pentagone-section .pentagone-continer {
-   gap: 120px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   height: 100vh;
-   }
-
-   .pentagone-continer .pentagone img {
-    width: 190px;
-    height: 190px;
-    flex-shrink: 0;
-   }
-
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+ 
   
-    .pentagone-continer h2 {
-        color: blue;
+    }
+
+    .pentagone {
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 60px;
+       
+        
+    }
+    .pentagone img {
+        width: 190px;
+        height: 190px;
+        flex-shrink: 0;   
+      
+       
+    }
+    .text-inside {
+        color: #FFF;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family:'Source Sans Pro';
+        }
+    .text-inside h2 {
         text-align: center;
-        font-family: Source Sans Pro;
         font-size: 46px;
+        font-style: normal;
         font-weight: 700;
         line-height: 26px;
-    }
-    .pentagone p {
-        color: blueviolet;
-        position: absolute;
-       
-        transform: translate(-50%, -50%);
-        z-index: 2;
+ }
+
+    .text-inside p {
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
     }
