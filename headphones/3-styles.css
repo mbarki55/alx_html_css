@@ -251,5 +251,30 @@ main .title-section .title-container {
     }
 
     /*--our contact" section--*/
+
+    .our-contact-section{
+        padding: 1% 30%;
+        width: 100%;
+         
+       
+    }
+    .our-contact-section .contact-continer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+
+    #contactForm{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .contact-continer .contact-information {
+        
+    }
+
     
     
