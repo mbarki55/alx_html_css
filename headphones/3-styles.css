@@ -253,28 +253,43 @@ main .title-section .title-container {
     /*--our contact" section--*/
 
     .our-contact-section{
-        padding: 1% 30%;
+      
         width: 100%;
          
        
     }
-    .our-contact-section .contact-continer{
+    .our-contact-section .our-contact-continer{
         display: flex;
         flex-direction: column;
         align-items: center;
         position: relative;
+       margin-bottom: 180px;
+      
     }
 
-    #contactForm{
+  .our-contact-continer .contact-us-inputs {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        gap: 40px;
         flex-wrap: nowrap;
         align-items: center;
+        width: 335px;
+        height: 373px;
+      
     }
-    .contact-continer .contact-information {
+    .contact-us-inputs .input {
+        color: #071629;
+        font-family: 'Source Sans Pro';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+   
+    
         
-    }
+    
 
     
     
