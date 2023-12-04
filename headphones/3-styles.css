@@ -286,6 +286,21 @@ main .title-section .title-container {
         font-weight: 600;
         line-height: normal;
     }
+    .contact-us-btn {
+        background-color: #FF6565;
+        color: #FFF;
+        border-radius: 50px;
+        width: 162px;
+        height: 44px;
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        font-family: 'Source Sans Pro';
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
    
     
         
