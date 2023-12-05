@@ -207,7 +207,7 @@ main .title-section .title-container {
         display: flex;
         justify-content: space-around;
         width: 100%;
-        padding-bottom: 1000px;
+        padding-bottom: 10px;
       
     
   
@@ -276,16 +276,23 @@ main .title-section .title-container {
         align-items: center;
         width: 335px;
         height: 373px;
+       
       
     }
     .contact-us-inputs .input {
-        color: #071629;
+        color:rgb(189, 189, 31);
         font-family: 'Source Sans Pro';
         font-size: 14px;
         font-style: normal;
         font-weight: 600;
-        line-height: normal;
+        line-height: normal; 
+        outline: none;
+        background: none;
+        border: none;
+        border-bottom: 2px solid black;
+        
     }
+
     .contact-us-btn {
         background-color: #FF6565;
         color: #FFF;
@@ -300,11 +307,18 @@ main .title-section .title-container {
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        margin-top:  70px;
+        margin-left: 88px;  
     }
-   
+
+    .contact-us-btn:hover {
+        background-color: black;
+      
+    }
+
+    
     
         
     
 
-    
     
