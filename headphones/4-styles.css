@@ -335,24 +335,28 @@ main .title-section .title-container {
 
     /*---Footer---*/
 
-    .footer {
+    footer {
         display: flex;
         flex-direction: column;
-     
+        background-color: #071629;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        position: relative;
+        bottom: 0;
         
     }
     .footer-continer {
         display: flex;
-        justify-content : space-between;
-        background-color: #071629;
+        justify-content : space-between;     
         align-items:center;
-        padding: 5% 0%;
+        padding: 4rem 6rem;
        
       
        
     }
     .footer-logo-img    {
-        padding-right: 80%;
+        padding-right: 150px;
       
     }
     
@@ -361,21 +365,15 @@ main .title-section .title-container {
         
     }
     .social-icons {
-        margin-right: 20px;
-       
-     
+        display: flex;
+        gap: 20px;
     }
 
     .social-icons a {
         color: #FFF;  
         justify-content: space-between;
         font-size: 30px;
-        text-decoration: none;
-        
-        
-      
-
-       
+        text-decoration: none;   
     }
    
     .footer-logo-img .social-icons {
@@ -386,7 +384,7 @@ main .title-section .title-container {
         }
 
     footer p {
-        color: #FFF;
+        color: #ffffffc7;
         font-family: 'Source Sans Pro';
         font-size: 12px;
         font-style: normal;
