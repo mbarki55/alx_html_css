@@ -339,26 +339,29 @@ main .title-section .title-container {
         background-color: #071629;
         justify-content : space-between;
         align-items:center;
-        width: 1349px;
-        height: 249px;
+        padding: 3rem 0;
+      
        
     }
     
     .footer-logo-img img {
-     height:30px ;
-     margin: 30px;
+        width: 150px;
+
+   
      
     }
     .social-icons {
-        padding: 0% 10%;
+       
     }
 
     .social-icons a {
         color: #FFF;  
         justify-content: space-between;
-        margin: 30px;
+       
         font-size: 30px;
         text-decoration: none;
+        margin: 0 .8rem;
+        margin-left: 20%;
 
        
     }
@@ -366,12 +369,17 @@ main .title-section .title-container {
     .footer-logo-img .social-icons {
         display:flex;
         gap:10px;
+        padding: 2rem 12rem;
         
         }
 
-    
-    
-        
-    
-
-    
+    p {
+        color: #FFF;
+        font-family: Source Sans Pro;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding-top: 2rem;
+      
+    }
