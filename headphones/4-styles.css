@@ -334,7 +334,24 @@ main .title-section .title-container {
     }
 
     /*---Footer---*/
+    .footer-continer {
+        display: flex;
+        background-color: #071629;
+        justify-content : space-between;
+        align-items:center;
+        padding:70px 100px; 
+    }
+    
+    .footer-logo-img a {
+       font-size: 50px;
+    }
 
+    .social-icons a {
+        color: #FFF;
+       font-size: 30px;
+       justify-content: space-between;
+
+    }
 
     
     
