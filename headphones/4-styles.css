@@ -339,19 +339,35 @@ main .title-section .title-container {
         background-color: #071629;
         justify-content : space-between;
         align-items:center;
-        padding:70px 100px; 
+        width: 1349px;
+        height: 249px;
+       
     }
     
-    .footer-logo-img a {
-       font-size: 50px;
+    .footer-logo-img img {
+     height:30px ;
+     margin: 30px;
+     
+    }
+    .social-icons {
+        padding: 0% 10%;
     }
 
     .social-icons a {
-        color: #FFF;
-       font-size: 30px;
-       justify-content: space-between;
+        color: #FFF;  
+        justify-content: space-between;
+        margin: 30px;
+        font-size: 30px;
+        text-decoration: none;
 
+       
     }
+   
+    .footer-logo-img .social-icons {
+        display:flex;
+        gap:10px;
+        
+        }
 
     
     
