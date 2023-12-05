@@ -334,13 +334,20 @@ main .title-section .title-container {
     }
 
     /*---Footer---*/
-    .footer-continer {
+
+    .footer {
         display: flex;
         flex-direction: column;
-        background-color: #071629;
+     
+        
+    }
+    .footer-continer {
+        display: flex;
         justify-content : space-between;
+        background-color: #071629;
         align-items:center;
-        padding: 3rem 0;
+        padding: 5% 0%;
+       
       
        
     }
@@ -354,8 +361,9 @@ main .title-section .title-container {
         
     }
     .social-icons {
+        margin-right: 20px;
        
-      padding-left: 60%;
+     
     }
 
     .social-icons a {
@@ -363,7 +371,7 @@ main .title-section .title-container {
         justify-content: space-between;
         font-size: 30px;
         text-decoration: none;
-        margin: 0 .8rem;
+        
         
       
 
@@ -385,6 +393,7 @@ main .title-section .title-container {
         font-weight: 400;
         line-height: normal;
         text-align: center; 
+       
        
         
       
