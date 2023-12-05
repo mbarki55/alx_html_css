@@ -336,7 +336,6 @@ main .title-section .title-container {
     /*---Footer---*/
     .footer-continer {
         display: flex;
-        flex-direction: column;
         background-color: #071629;
         justify-content : space-between;
         align-items:center;
@@ -344,28 +343,25 @@ main .title-section .title-container {
       
        
     }
-    .footer-logo-img    {
-        padding-right: 80%;
-      
-    }
     
     .footer-logo-img img {
         width: 150px;
-        
+
+   
+     
     }
     .social-icons {
        
-      padding-left: 60%;
     }
 
     .social-icons a {
         color: #FFF;  
         justify-content: space-between;
+       
         font-size: 30px;
         text-decoration: none;
         margin: 0 .8rem;
-        
-      
+        margin-left: 20%;
 
        
     }
@@ -373,19 +369,17 @@ main .title-section .title-container {
     .footer-logo-img .social-icons {
         display:flex;
         gap:10px;
-     
+        padding: 2rem 12rem;
         
         }
 
-    footer p {
+    p {
         color: #FFF;
-        font-family: 'Source Sans Pro';
+        font-family: Source Sans Pro;
         font-size: 12px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        text-align: center; 
-       
-        
+        padding-top: 2rem;
       
     }
