@@ -201,53 +201,40 @@ main .title-section .title-container {
 
     /*---"pentagone" section---*/
     
-
-
-   .pentagone-section .pentagone-continer {
+    .pentagone-container {
         display: flex;
+        flex-direction: column;
         justify-content: space-around;
+        align-items: center;
         width: 100%;
-        padding-bottom: 10px;
-      
-    
-  
+        padding: 0% 5% ;
     }
-
+    
+    .pentagone h2 {
+        margin: 15px;
+        font-size: 2.88rem;
+        font-weight: 10px;
+        line-height: var(--line-height-big);
+    }
     .pentagone {
         position: relative;
-        bottom:50px;
-        overflow: hidden;
-      
+        flex-direction: column;
+        overflow: hidden; 
     }
-
-    .pentagone img {
-        width: 190px;
-        height: 190px;
-   
+    .pentagone-shape {
+        position: relative;
+        width: 10rem;
+        height: 9.75rem;
+        background:#FF6565;
+        clip-path: polygon( 50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%);
     }
-
     .text-inside {
-        color: #FFF;
+        color: white;
         position: absolute;
-        top: 60%;
+        top: 80%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-family:'Source Sans Pro';
-        }
-    .text-inside h2 {
-        text-align: center;
-        font-size: 46px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 26px;
- }
-
-    .text-inside p {
-        text-align: center;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 26px;
+        z-index: 2;
     }
 
     /*--our contact" section--*/

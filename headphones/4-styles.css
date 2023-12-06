@@ -1,34 +1,49 @@
 
-
 header {
-    width: 100%;
+    background: transparent;
+    max-width: 100%;
+    padding: 2% 5%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
 }
-
 header .nav-wrapper{
     display: flex;
-    justify-content : space-between;
-    align-items:center;
-    padding:21px 140px; 
+    justify-content: space-between;
+    align-items: center;
 }
 
-.nav-wrapper .logo-img a img {
-    width: 169px;
-    }
+/* - Header Logo - */
 
-.nav-wrapper .menu{
-    display: flex;
-    gap: 30px;
-    
+.logo {
+    width: 10.2rem;
 }
-.nav-wrapper .menu a{
-    font-size:10px;
-    font-weight: 300px;
-    color: white;
+/* - Navbar Menu - */
+
+nav .nav-container .nav-tabs {
+    float: right;
+    list-style: none;
+}
+.nav-container ul li {
+    display: inline;
+    margin: 0 1.5rem;
+}
+.nav-tabs .nav-tab a {
     text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: small;
 }
-.menu a:hover {
-    color:#FF6565 ;
+.nav-tabs .nav-tab a:hover,a:active{
+    color: #FF6565;
 }
+
+.hidden {
+	display: none;
+}
+
 
 body {
     background-image: url(./images/headphones_hero_1.jpg);
@@ -49,7 +64,7 @@ main .title-section .title-container {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: auto;
+    padding: 15% 13%;
     align-items: center;
 }
 .title-container .title {
@@ -57,7 +72,7 @@ main .title-section .title-container {
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
-    margin: auto;
+    margin: 10px;
 
 }
 .title-container .subtitle {
@@ -65,7 +80,7 @@ main .title-section .title-container {
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     
 }
 
@@ -80,7 +95,7 @@ main .title-section .title-container {
     font-size:  14px;
     font-weight: 700;
     text-align: center;
-    margin: 100px; 
+    margin: 50px; 
 }
 
 .title-container p {
@@ -90,7 +105,7 @@ main .title-section .title-container {
     font-weight: 400;
     line-height: 26px;
     justify-content: center;
-    padding-top:80px;
+    padding-top:50px;
     
     }
     /* what we do section*/
@@ -346,7 +361,7 @@ main .title-section .title-container {
         bottom: 0;
         
     }
-    .footer-continer {
+    .footer-container {
         display: flex;
         justify-content : space-between;     
         align-items:center;
@@ -390,9 +405,116 @@ main .title-section .title-container {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
-        text-align: center; 
-       
-       
-        
+        text-align: center;    
       
     }
+
+    @media screen and (max-width: 700px) {
+    
+        /* = Header Section = */
+        .nav-container {
+            position: absolute;
+            display: none;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: transparent;
+        }
+    
+        .nav-tabs {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 7rem;
+            width: 100%;
+        }
+    
+        .nav-tab {
+            padding: 1rem 0;
+        }
+    
+        .menu-btn {
+            position: absolute;
+            top: 2.5rem;
+            left: 1.5rem;
+            display: block;
+            width: 1.6rem;
+            cursor: pointer;
+            z-index: 2;
+        }
+    
+        .menu-btn .menu {
+            display: block;
+            height: 2px;
+            background: white;
+        }
+    
+        .menu-btn .menu:nth-child(2) {
+            margin-top: 4px;
+            margin-right: 9px;
+            opacity: 1;
+        }
+    
+        .menu-btn .menu:nth-child(3) {
+            margin-top: 4px;
+        }
+    
+        #menuToggle:checked + .menu-btn .menu {
+            transition: transform 0.2s ease;
+        }
+    
+        #menuToggle:checked + .menu-btn .menu:nth-child(1) {
+            transform: translate3d(0, 6px, 0) rotate(45deg);
+        }
+    
+        #menuToggle:checked + .menu-btn .menu:nth-child(2) {
+            transform: rotate(-45deg) translate3d(-5.71429px, -6px, 0);
+            opacity: 0;
+        }
+    
+        #menuToggle:checked + .menu-btn .menu:nth-child(3) {
+            transform: translate3d(0, -6px, 0) rotate(-45deg);
+        }
+    
+        #menuToggle:checked ~ .nav-container {
+            z-index: 1;
+            display: flex;
+            animation: menu-slide-right 0.3s ease;
+        }
+        @keyframes menu-slide-right {
+            0% {
+                transform: translateY(-60px);
+            }
+            to {
+                transform: translateY(0);
+            }
+        }
+        /*---"what we do" section---*/
+
+        .icons-continer {
+          
+           flex-direction: column;
+           align-items: center;
+       }
+       
+       .w-icon{
+        flex: 1 0 100%; 
+        max-width: none;
+        margin: 2rem 0;
+        }
+         /* = Our Results Section =*/
+        .pentagone-continer {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .pentagone {
+            flex: 1 0 100%; 
+            max-width: none;
+            margin: 1rem 0;
+        }
+   
+   
+        }
+   
