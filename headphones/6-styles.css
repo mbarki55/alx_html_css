@@ -178,14 +178,16 @@ main .title-section .title-container {
       justify-content: center;
       align-items: center;
       text-align: center;
-      gap: 30px;
+      max-width: max-content;
+      margin: auto;
+      padding-bottom: 2rem;
     
   }
    .our-results-continer h1 {
       color: #FFF;
       text-align: center;
       font-size: 32px;
-      font-weight: 600;
+      margin:3rem 0;
   }
 
    .our-results-continer > p {
@@ -193,7 +195,7 @@ main .title-section .title-container {
       text-align: center;
       font-size: 16px;
       font-weight: 400;
-      width: 80%;
+      margin-bottom: 5rem;
 
   }
 
@@ -201,20 +203,23 @@ main .title-section .title-container {
  .pentagone-section .pentagone-continer {
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
     flex-wrap: wrap;
     width: 100%;
   }
   .pentagone {
     position: relative;
-    margin-top: 0 !important; 
-    margin: 2rem;
-    text-align: center; 
+    overflow: hidden;
   }
 
-  .pentagone img {
-      width: 190px;
-      height: 190px;
-  }
+  .pentagon-shape {
+	position: relative;
+	width: 10rem;
+	height: 9.75rem;
+	background: #FF6565;
+	clip-path: polygon( 50% 0, 100% 38%, 81% 100%, 19% 100%, 0 38%);
+}
 
   .text-inside {
       color: #FFF;
@@ -225,8 +230,8 @@ main .title-section .title-container {
       font-family:'Source Sans Pro';
       }
   .text-inside h2 {
-      text-align: center;
-      font-size: 46px;
+    margin: 15px;
+    font-size: 2.88rem;
       font-style: normal;
       font-weight: 700;
       line-height: 26px;
