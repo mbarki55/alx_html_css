@@ -148,11 +148,14 @@ main .title-section .title-container {
 
     .what-we-do-container .icons-continer {
         display: flex;
-        flex-direction: row;
+        flex-wrap: wrap;
         gap: 8px;
         text-align: center;
         align-items: center;
+        justify-content: center;
         padding-bottom: 5%;
+        padding: 0%;
+        margin: 0%;
        
     
     }
@@ -421,6 +424,11 @@ main .title-section .title-container {
             right: 0;
             background: transparent;
         }
+        header .nav-wrapper{
+          
+            justify-content: center;
+           
+        }
     
         .nav-tabs {
             display: flex;
@@ -490,8 +498,20 @@ main .title-section .title-container {
                 transform: translateY(0);
             }
         }
-        /*---"what we do" section---*/
+        /*---title section---*/
 
+main .title-section .title-container { 
+    padding: 45% 13%; }
+
+    .title-container {
+        width: 100%;
+        padding-top: 5px;
+    }
+        /*---"what we do" section---*/
+    .what-we-do-section {
+        position: relative;
+        top:20px
+    }
         .icons-continer {
           
            flex-direction: column;
