@@ -1,540 +1,472 @@
-
-header {
-    background: transparent;
-    max-width: 100%;
-    padding: 2% 5%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 100;
+/* based */
+* button:hover{
+    opacity: 0.8;
 }
-header .nav-wrapper{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-/* - Header Logo - */
-
-.logo {
-    width: 10.2rem;
-}
-/* - Navbar Menu - */
-
-nav .nav-container .nav-tabs {
-    float: right;
-    list-style: none;
-}
-.nav-container ul li {
-    display: inline;
-    margin: 0 1.5rem;
-}
-.nav-tabs .nav-tab a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: small;
-}
-.nav-tabs .nav-tab a:hover,a:active{
-    color: #FF6565;
-}
-
-.hidden {
-	display: none;
-}
-
 
 body {
     background-image: url(./images/headphones_hero_1.jpg);
     background-repeat: no-repeat;
     background-position: top center;
-    font-family: 'Source Sans Pro';
+    background-size: 100%vh;
     padding:0;
     margin: 0;
+    font-family: 'Source Sans Pro';
 
+}
+main {
+    display: flex;
+    flex-direction: column;
+    gap:8vh;
+    margin-bottom: 80px;
+}
 
+header {
+  background: transparent;
+  max-width: 100%;
+  padding: 2% 5%;
+  z-index: 100;
+}
+header .nav-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* - Header Logo - */
+.logo {
+  width: 10.2rem;
+}
+/* - Navbar Menu - */
+
+nav .nav-container .nav-tabs {
+  float: right;
+  list-style: none;
+}
+.nav-container ul li {
+  display: inline;
+  margin: 0 1.5rem;
+}
+.nav-tabs .nav-tab a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: small;
+}
+.nav-tabs .nav-tab a:hover,a:active{
+  color: #FF6565;
+}
+
+.hidden {
+display: none;
 }
 
 /*--main--*/
 /*---title section---*/
 
+
 main .title-section .title-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 15% 13%;
-    align-items: center;
+  display: flex;
+  gap:19%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 25vh 0;
 }
 .title-container .title {
-    color: #FFF;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    margin: 10px;
+  color: #FFF;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  margin: auto;
 
 }
 .title-container .subtitle {
-    color: #FFF;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 1rem;
 }
 
 .title-container button {
-    background-color: #FF6565;
-    color:  #FFF;
-    width: 162px;
-    height: 44px;
-    border-radius: 50px;
-    border: none;
-    cursor: pointer;
-    font-size:  14px;
-    font-weight: 700;
-    text-align: center;
-    margin: 50px; 
+  background-color: #FF6565;
+  color:  #FFF;
+  width: 162px;
+  height: 44px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  font-size:  14px;
+  font-weight: 700;
+  text-align: center;
+  margin: 50px;
 }
 
 .title-container p {
-    width: 637px;
-    color: #FFF;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    justify-content: center;
-    padding-top:50px;
+  width: 80%;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  justify-content: center;  
+  }
+
+
+  /* what we do section*/
+  .what-we-do-section{
+     width: 100%;
+     padding: auto;
+  }
+  .what-we-do-section .what-we-do-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 48px;
+      align-items: center;
+      text-align: center;
+    }
+  .what-we-do-section .what-we-do-container h1{
+      color: #071629;
+      text-align: center;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+
+  }
+  .what-we-do-container p {
+      color: #071629;
+      text-align: center;    
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      width: 80%;
+  }
+
+  .what-we-do-container .icons-continer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .icons-continer .w-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+    margin: 3rem;
+    text-align: center;
+  }
+
+  .w-icon span {
+      color:#FF6565;
+      font-size: 94px;
+  }
+
+
+  /*---our results section---*/
+
+  .our-results-section {
+      background: url('./images/headphones_hero_2.jpg') center/cover no-repeat;
+      padding: 2rem 2rem;
+   }
+ 
+  .our-results-section .our-results-continer {
+      display: flex; 
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 30px;
     
-    }
-    /* what we do section*/
-    .what-we-do-section{
-       position: relative;
-       top: 200px;
-       right: 0;
-       left: 0;
-       width: 100%;
-       
-      
-    }
-    .what-we-do-section .what-we-do-container {
-        display: flex;
-        flex-direction: column;
-        gap: 48px;
-        align-items: center;
-        text-align: center;
+  }
+   .our-results-continer h1 {
+      color: #FFF;
+      text-align: center;
+      font-size: 32px;
+      font-weight: 600;
+  }
+
+   .our-results-continer > p {
+      color: #FFF;
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+      width: 80%;
+
+  }
+
+  /*---"pentagone" section---*/
+ .pentagone-section .pentagone-continer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .pentagone {
+    position: relative;
+    margin-top: 0 !important; 
+    margin: 2rem;
+    text-align: center; 
+  }
+
+  .pentagone img {
+      width: 190px;
+      height: 190px;
+  }
+
+  .text-inside {
+      color: #FFF;
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family:'Source Sans Pro';
       }
-    .what-we-do-section .what-we-do-container h1{
-        color: #071629;
-        text-align: center;
-        font-family: 'SourceSansPro';
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 600;
-        margin-top: 30px;
+  .text-inside h2 {
+      text-align: center;
+      font-size: 46px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 26px;
+}
 
-    }
-    .what-we-do-container p {
-        color: #071629;
-        text-align: center;    
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 26px;
-        padding: 0 20%;
-    }
+  .text-inside p {
+      text-align: center;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+  }
 
+  /*--our contact" section--*/
 
-    .what-we-do-container .icons-continer {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
-        text-align: center;
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 5%;
-        padding: 0%;
-        margin: 0%;
-       
-    
-    }
-    .icons-continer .w-icon {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-    }
-
-    .w-icon span {
-        color:#FF6565;
-        font-size: 94px;
-    }
-
-    /*---our results section---*/
-
-    .our-results-section {
-        background-image: url(./images/headphones_hero_2.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        font-family:'Source Sans Pro';
-        position: relative;
-        top: 190px;
-        right: 0;
-        left: 0;
-        height: 101vh;
-        
-                
-     }
-   
-
-    .our-results-section .our-results-continer {
-        display: flex; 
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-      
-        
-    }
-     .our-results-continer h1 {
-        color: #FFF;
-        text-align: center;
-        font-size: 32px;
-        font-weight: 600;
-        padding-top: 6%;
-       
-      
-        
-    }
-  
-     .our-results-continer p {
-        color: #FFF;
-        text-align: center;
-        font-size: 16px;
-        font-weight: 400;
-        padding: 2% 25%;
-       
-    }
-
-    /*---"pentagone" section---*/
-    
-
-
-   .pentagone-section .pentagone-continer {
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-        padding-bottom: 10px;
-      
-    
-  
-    }
-
-    .pentagone {
-        position: relative;
-        bottom:50px;
-        overflow: hidden;
-      
-    }
-
-    .pentagone img {
-        width: 190px;
-        height: 190px;
-   
-    }
-
-    .text-inside {
-        color: #FFF;
-        position: absolute;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-family:'Source Sans Pro';
-        }
-    .text-inside h2 {
-        text-align: center;
-        font-size: 46px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 26px;
- }
-
-    .text-inside p {
-        text-align: center;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 26px;
-    }
-
-    /*--our contact" section--*/
-
-    .our-contact-section{
-      
-        width: 100%;
-         
-       
-    }
-    .our-contact-section .our-contact-continer{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        position: relative;
-       margin-bottom: 100px;
-      
-    }
-    .our-contact-continer h1 {
-        color: #071629;
-        text-align: center;
-        font-family: 'Source Sans Pro';
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        margin-bottom: 60px;
-
-    }
-
-  .our-contact-continer .contact-us-inputs {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        gap: 0px;
-        flex-wrap: nowrap;
-        align-items: center;
-        width: 230px;
-        height: 200px;
-       
-      
-    }
-    .contact-us-inputs .input {
-        outline: none;
-        background: none;
-        border: none;
-        border-bottom: 1px solid black ;
-        height: 35px;
-        width: 350px;
-       
-        
-    }
-    .input::placeholder {
-        color:#071629;
-        font-family: 'Source Sans Pro';
-        font-size:16px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-         
-       }
-
-    .contact-us-btn {
-        background-color: #FF6565;
-        color: #FFF;
-        border-radius: 50px;
-        width: 162px;
-        height: 44px;
-        border: none;
-        cursor: pointer;
-        text-align: center;
-        font-family: 'Source Sans Pro';
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        margin-top:  70px;
-        margin-left: 50px;  
-    }
-
-    .contact-us-btn:hover {
-        background-color: black;
-      
-    }
-
-    /*---Footer---*/
-
-    footer {
-        display: flex;
-        flex-direction: column;
-        background-color: #071629;
-        padding: 0;
-        margin: 0;
-        width: 100%;
-        position: relative;
-        bottom: 0;
-        
-    }
-    .footer-container {
-        display: flex;
-        justify-content : space-between;     
-        align-items:center;
-        padding: 4rem 6rem;
-       
-      
-       
-    }
-    .footer-logo-img    {
-        padding-right: 150px;
-      
-    }
-    
-    .footer-logo-img img {
-        width: 150px;
-        
-    }
-    .social-icons {
-        display: flex;
-        gap: 20px;
-    }
-
-    .social-icons a {
-        color: #FFF;  
-        justify-content: space-between;
-        font-size: 30px;
-        text-decoration: none;   
-    }
-   
-    .footer-logo-img .social-icons {
-        display:flex;
-        gap:10px;
+  .our-contact-section{
+      width: 100%;    
      
-        
-        }
+  }
+  .our-contact-section .our-contact-continer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+  }
+  .our-contact-continer h1 {
+      color: #071629;
+      text-align: center;
+      font-family: 'Source Sans Pro';
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin-bottom: 60px;
+  }
 
-    footer p {
-        color: #ffffffc7;
-        font-family: 'Source Sans Pro';
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        text-align: center;    
+.our-contact-continer .contact-us-inputs {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 0px;
+      flex-wrap: nowrap;
+      align-items: center;
+      width: 230px;
+      height: 200px;
+    
+  }
+  .contact-us-inputs .input {
+      outline: none;
+      background: none;
+      border: none;
+      border-bottom: 1px solid black ;
+      height: 35px;
+      width: 350px;
+  }
+  .input::placeholder {
+      color:#071629;
+      font-family: 'Source Sans Pro';
+      font-size:16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+     }
+
+  .contact-us-btn {
+      background-color: #FF6565;
+      color: #FFF;
+      border-radius: 50px;
+      width: 162px;
+      height: 44px;
+      border: none;
+      cursor: pointer;
+      text-align: center;
+      font-family: 'Source Sans Pro';
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-top:  70px;
+      margin-left: 50px;  
+  }
+
+  .contact-us-btn:hover {
+      background-color: black;
+  }
+
+  /*---Footer---*/
+
+  footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      background-color: #071629;
+      width: 100%;
+      height: 34vh;
+      position: relative;
       
+  }
+  .footer-container {
+    position:absolute;
+    top: 25%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content : space-between;     
+      align-items:center;
+      margin: 0 100px;
+      width: 80%;
+
+  }
+  
+  .footer-logo-img img {
+      width: 150px;
+      
+  }
+  .social-icons {
+      display: flex;
+      gap: 20px;
+  }
+
+  .social-icons a {
+      color: #FFF;  
+      justify-content: space-between;
+      font-size: 30px;
+      text-decoration: none;   
+  }
+ 
+  .footer-logo-img .social-icons {
+      display:flex;
+      gap:10px;
+      }
+
+  footer p {
+    position: absolute;
+    bottom: 5px;
+      color: #ffffffc7;
+      font-family: 'Source Sans Pro';
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-align: center;
+
+  }
+
+  @media screen and (max-width: 700px) {
+  
+      /* = Header Section = */
+      .nav-container {
+          position: absolute;
+          display: none;
+          z-index: -1;
+          top: 0;
+          left: 0;
+          right: 0;
+          background: transparent;
+      }
+      header .nav-wrapper{
+        padding-top: 16px;
+        justify-content: center;
+
+      }
+
+      .nav-tabs {
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          margin-top: 4rem;
+          width: 85%;
+      }
+  
+      .nav-tab {
+          padding: 1rem 0;
+      }
+  
+      .menu-btn {
+          position: absolute;
+          top: 2.2rem;
+          left: 1.5rem;
+          display: block;
+          width: 1.6rem;
+          cursor: pointer;
+          z-index: 2;
+      }
+  
+      .menu-btn .menu {
+          display: block;
+          height: 2px;
+          background: white;
+      }
+  
+      .menu-btn .menu:nth-child(2) {
+          margin-top: 4px;
+          opacity: 1;
+      }
+  
+      .menu-btn .menu:nth-child(3) {
+          margin-top: 4px;
+      }
+  
+      #menuToggle:checked + .menu-btn .menu {
+          transition: transform 0.2s ease;
+      }
+  
+      #menuToggle:checked + .menu-btn .menu:nth-child(1) {
+          transform: translate3d(0, 6px, 0) rotate(45deg);
+      }
+  
+      #menuToggle:checked + .menu-btn .menu:nth-child(2) {
+          transform: rotate(-45deg) translate3d(-5.71429px, -6px, 0);
+          opacity: 0;
+      }
+  
+      #menuToggle:checked + .menu-btn .menu:nth-child(3) {
+          transform: translate3d(0, -6px, 0) rotate(-45deg);
+      }
+  
+      #menuToggle:checked ~ .nav-container {
+          z-index: 1;
+          display: flex;
+          animation: menu-slide-right 0.3s ease;
+      }
+      @keyframes menu-slide-right {
+          0% {
+              transform: translateY(-60px);
+          }
+          to {
+              transform: translateY(0);
+          }
+      }
+      .pentagone{
+        max-width: 200px;
+      }
+
     }
+ 
+@media screen and (max-width: 480px){
 
-    @media screen and (max-width: 700px) {
-    
-        /* = Header Section = */
-        .nav-container {
-            position: absolute;
-            display: none;
-            z-index: -1;
-            top: 0;
-            left: 0;
-            right: 0;
-            background: transparent;
-        }
-        header .nav-wrapper{
-          
-            justify-content: center;
-           
-        }
-    
-        .nav-tabs {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 7rem;
-            width: 100%;
-        }
-    
-        .nav-tab {
-            padding: 1rem 0;
-        }
-    
-        .menu-btn {
-            position: absolute;
-            top: 2.5rem;
-            left: 1.5rem;
-            display: block;
-            width: 1.6rem;
-            cursor: pointer;
-            z-index: 2;
-        }
-    
-        .menu-btn .menu {
-            display: block;
-            height: 2px;
-            background: white;
-        }
-    
-        .menu-btn .menu:nth-child(2) {
-            margin-top: 4px;
-            margin-right: 9px;
-            opacity: 1;
-        }
-    
-        .menu-btn .menu:nth-child(3) {
-            margin-top: 4px;
-        }
-    
-        #menuToggle:checked + .menu-btn .menu {
-            transition: transform 0.2s ease;
-        }
-    
-        #menuToggle:checked + .menu-btn .menu:nth-child(1) {
-            transform: translate3d(0, 6px, 0) rotate(45deg);
-        }
-    
-        #menuToggle:checked + .menu-btn .menu:nth-child(2) {
-            transform: rotate(-45deg) translate3d(-5.71429px, -6px, 0);
-            opacity: 0;
-        }
-    
-        #menuToggle:checked + .menu-btn .menu:nth-child(3) {
-            transform: translate3d(0, -6px, 0) rotate(-45deg);
-        }
-    
-        #menuToggle:checked ~ .nav-container {
-            z-index: 1;
-            display: flex;
-            animation: menu-slide-right 0.3s ease;
-        }
-        @keyframes menu-slide-right {
-            0% {
-                transform: translateY(-60px);
-            }
-            to {
-                transform: translateY(0);
-            }
-        }
-        /*---title section---*/
-
-main .title-section .title-container { 
-    padding: 45% 13%; }
-
-    .title-container {
-        width: 100%;
-        padding-top: 5px;
+    .icons-continer .w-icon {
+        margin: 10px 16px;
     }
-        /*---"what we do" section---*/
-    .what-we-do-section {
-        position: relative;
-        top:20px
-    }
-        .icons-continer {
-          
-           flex-direction: column;
-           align-items: center;
-       }
-       
-       .w-icon{
-        flex: 1 0 100%; 
-        max-width: none;
-        margin: 2rem 0;
-        }
-         /* = Our Results Section =*/
-        .pentagone-continer {
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .pentagone {
-            flex: 1 0 100%; 
-            max-width: none;
-            margin: 1rem 0;
-        }
-   
-   
-        }
-   
+}
