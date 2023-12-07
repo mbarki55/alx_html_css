@@ -5,22 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Headphones</title>  
-    <link rel='stylesheet' href='./6-styles.css'>
+    <link rel='stylesheet' href='./4-styles.css'>
     <link rel="icon" type="image/icon" href="./images/favicon.ico">
     <link rel="stylesheet" href="images/holberton_school-icon/style.css">
 </head>
 <body>
     <header>
         <div class="nav-wrapper">
-            <div class="logo-img"> 
-             <a href="./1-index.html"><img src="./images/logo_headphones.png" alt="logo"></a>
+            <div class="logo-container">
+                <img class="logo" src="./images/logo_headphones.png" alt="Logo">
             </div>
-             <nav class="menu">
-                 <a href="#">what we do</a>
-                 <a href="#">our results</a>
-                 <a href="#">contact us</a>
-             </nav>
-            </div> 
+            <nav>
+                <input class="hidden" type="checkbox" id="menuToggle">
+                <label class="menu-btn" for="menuToggle">
+                    <div class="menu"></div>
+                    <div class="menu"></div>
+                    <div class="menu"></div>
+                </label>
+                <div class="nav-container">
+                    <ul class="nav-tabs">
+                        <li class="nav-tab"><a href="what-we-do.html" class="nav-link">what we do</a></li>
+                        <li class="nav-tab"><a href="what-we-do.html" class="nav-link">our results</a></li>
+                        <li class="nav-tab"><a href="what-we-do.html" class="nav-link">contact us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
     </header>
     <main>
         <!--"Title section"-->
@@ -86,49 +96,45 @@
                         magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                     </p> 
+                     <!--"pentagone" -->
+
+                        <div  class="pentagone-section">
+                            <div class="pentagone-continer">
+                                <div class=" pentagone">
+                                    <img src="./images/pentagone.png" alt="pentagone1">
+                                    <div class="text-inside">
+                                        <h2>+2%</h2>
+                                        <p>Lorem ipsum dolor</p>
+                                    </div> 
+                                </div>
+                                <div class=" pentagone">
+                                    <img src="./images/pentagone.png" alt="pentagone2">
+                                    <div class="text-inside">
+                                        <h2>+2%</h2>
+                                        <p>Lorem ipsum dolor</p>
+                                    </div> 
+                                </div>
+                                <div class=" pentagone">
+                                    <img src="./images/pentagone.png" alt="pentagone3">
+                                    <div class="text-inside">
+                                        <h2>+2%</h2>
+                                        <p>Lorem ipsum dolor</p>
+                                    </div> 
+                                </div>
+                                <div class=" pentagone">
+                                    <img src="./images/pentagone.png" alt="pentagone4">
+                                    <div class="text-inside">
+                                        <h2>+2%</h2>
+                                        <p>Lorem ipsum dolor</p>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
             </div>
         </section>
 
-        <!--"pentagone" section-->
-
-       <section class="pentagone-section">
-        <div class="pentagone-continer">
-            <div class=" pentagone">
-                <div class="pentagone-shape shape1">
-                    <div class="text-inside">
-                        <h2>+2%</h2>
-                        <p>Lorem ipsum dolor</p>
-                    </div> 
-                </div>
-            </div>
-            <div class=" pentagone">
-                <div class="pentagone-shape shape2">
-                <div class="text-inside">
-                    <h2>+2%</h2>
-                    <p>Lorem ipsum dolor</p>
-                </div> 
-              </div>
-            </div>
-            <div class=" pentagone">
-                <div class="pentagone-shape shape3">
-                    <div class="text-inside">
-                        <h2>+2%</h2>
-                        <p>Lorem ipsum dolor</p>
-                    </div> 
-                </div>
-               
-            </div>
-            <div class="pentagone">
-                 <div  class="pentagone-shape shape4">
-                    <div class="text-inside">
-                        <h2>+2%</h2>
-                        <p>Lorem ipsum dolor</p>
-                    </div>
-                 </div>
-            </div>
-        </div>
-       </section>
-
+       
+        
        <!--"our contact" section-->
 
        <section class="our-contact-section">
@@ -146,7 +152,7 @@
        </section>
   </main>
     <footer>
-        <div class="footer-continer">
+        <div class="footer-container">
             <div class="footer-logo-img"> 
                 <a href="./1-index.html"><img src="./images/logo_headphones.png" alt="logo"></a>
                </div>
@@ -155,7 +161,8 @@
                 <a href="www.x.com" target="_blank" ><span class="holberton_school-icon-ic_twitter"></span></a>
                 <a href="www.instagram.com" target="_blank" ><span class="holberton_school-icon-ic_instagram"></span></a>
              </div>
-            <p>©headphones 2020 - Recreate by AITMBAREK oumaima</p>
         </div>
+        <p>©headphones 2020 - Recreate by AITMBAREK oumaima</p>
+        
     </footer>
 </body>
