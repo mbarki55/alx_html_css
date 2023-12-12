@@ -130,6 +130,32 @@ body {
 
    }
 
-   .Quote-section {
-    
+  
+   
+
+   
+   .Quote-section .Quote-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C271FF;
+    padding: 7rem 5rem;
+    margin-top: -4rem;
    }
+   .Quote-section .Quote-container img {
+    border: none;
+    width: 10rem;
+    border-radius: 100%;
+}
+
+.Quote-container .author {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  color:#FFFFFF;
+ 
+}
+
+/* ==-== VIDEO SECTION ==-== */
+
+
