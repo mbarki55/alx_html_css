@@ -28,11 +28,9 @@ body {
   }
   /*---main---*/
   
-  .hero-section {
-    display: flex;
-    flex-direction: column;
+  
     
-  }
+  
   .hero-section .title-container {
     position: relative;
     display: flex;
@@ -72,9 +70,66 @@ body {
     cursor: pointer;
     background-color: #C271FF;
     color:#FFFFFF;
-    font-size: 14px;
+    font-size: 11px;
     margin-top: 2rem;
+  }
 
+
+  .teammember-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 15vh;
     
   }
- 
+  .teammember-section h2{
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: center;
+  }
+  h2 span{
+    color:#C271FF;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+  }
+   .teammember-section .teammember-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   }
+   .teammember-container .teammember {
+    padding: 4rem 1rem;
+   }
+   .teammember img{
+    border-radius: 100%;
+    border: none;
+    width: 9rem;
+   }
+   .teammember h3 {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0rem;
+   }
+
+   .teammember p {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top:-1rem;
+
+   }
+
+   .Quote-section {
+    
+   }
