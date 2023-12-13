@@ -28,9 +28,6 @@ body {
   }
   /*---main---*/
   
-  
-    
-  
   .hero-section .title-container {
     position: relative;
     display: flex;
@@ -90,7 +87,7 @@ body {
     line-height: 40px;
     text-align: center;
   }
-  h2 span{
+  .teammember-section h2 span{
     color:#C271FF;
     font-size: 32px;
     font-weight: 700;
@@ -127,14 +124,9 @@ body {
     text-align: center;
     color: #FFFFFF;
     margin-top:-1rem;
-
    }
 
-  
-   
-
-   
-   .Quote-section .Quote-container {
+    .Quote-section .Quote-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -191,5 +183,52 @@ body {
     }
 
 /* ==-== VIDEO SECTION ==-== */
+.Video-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:5rem;
+  padding: 6rem 11rem;
+}
+.Video-section h1 {
+  color: #071629;
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.Video-section h1 span {
+  color: #C271FF;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 
+/*---video----*/
+
+.Video-section .Videos-container{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1.65rem;
+  text-align: left; 
+}
+.Video-container .Video {
+  position: relative;
+  width: 15rem;
+  height: 9rem;
+  padding-bottom: 0.8rem;
+}
+.Video .Thumbnail {
+  width: 100%;
+  height: 100%;
+}
+.Video .Play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 4rem;
+}
 
