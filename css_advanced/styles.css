@@ -188,7 +188,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap:5rem;
-  padding: 6rem 11rem;
+  padding: 3rem 10rem;
 }
 .Video-section h1 {
   color: #071629;
@@ -212,7 +212,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   gap: 1.65rem;
-  text-align: left; 
+  text-align: left;
+  margin-top: -20px; 
 }
 .Video-container .Video {
   position: relative;
@@ -232,3 +233,70 @@ body {
   width: 4rem;
 }
 
+.Video-container .Video-Author {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.Video-container .Video-Author img{
+  width: 30px;
+  height: 30px;
+  top: 261px;
+  left: 13px;
+  
+}
+.Video-container .Video-Author h3 {
+margin-top: 2px;
+left: 56px;
+color: #C271FF;
+font-family: 'Source Sans Pro';
+font-size: 14px;
+font-weight: 600;
+line-height: 27px;
+text-align: left;
+}
+
+.Video-container h2 {
+  font-family: 'Source Sans Pro';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.Video-container p {
+  font-family: 'Source Sans Pro';
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+color:#07162980;
+;
+
+}
+
+.Video-container .Rating-container{
+  display: flex;
+  flex-direction: row;
+ 
+}
+.Rating-container p {
+  font-family: 'Source Sans Pro';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #C271FF;
+  margin: 0rem 3rem;
+
+}
+.Rating-container .Rating {
+  width: 107px;
+height: 15px;
+top: 305px;
+left: 13px;
+
+}
