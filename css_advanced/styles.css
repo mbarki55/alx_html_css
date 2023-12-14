@@ -340,9 +340,6 @@ left: 13px;
   gap: 15px;
   justify-content: center;
   align-items: center;
-  
-
- 
 }
 .membership-container .Offer h2{
   font-family: 'Source Sans Pro';
@@ -384,3 +381,75 @@ left: 13px;
     margin-top: 5.2rem;
 
   }
+
+  /*---FAQ---*/
+
+  .FAQ-section {
+    padding: 1rem 11rem;
+  
+  }
+  .FAQ-section h1 {
+    font-family: 'Source Sans Pro';
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 75px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+.FAQ-section .FAQ-container .row-block {
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+}
+.row-block .item-block h2 {
+  font-family: 'Source Sans Pro';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.item-block p {
+  font-family: 'Source Sans Pro';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #07162980;
+}
+.item-block {
+  margin: 1rem 2rem;
+}
+
+/*---Footer---*/
+.footer-container {
+  background: #071629;
+  padding: 5rem 0rem;
+ 
+
+}
+.footer-container .logo {
+  display: flex;
+  flex-direction: row;
+
+}
+.logo img {
+  width: 169px;
+height: 30px;
+
+padding: 0.02px, 0px, 0.52px, 0.59px;
+
+}
+.footer-container .icons {
+ margin-left:700px;
+}
+.footer-container .icons a {
+  width: 30px;
+height: 30px;
+top: 90px;
+left: 1120px;
+
+
+}
