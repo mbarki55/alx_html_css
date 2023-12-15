@@ -428,6 +428,7 @@ left: 13px;
   background: #071629;
   padding: 5rem 0rem;
 }
+
 .footer-container .logo {
   display: flex;
   flex-direction: row;
@@ -438,9 +439,9 @@ left: 13px;
   padding: 0.02px, 0px, 0.52px, 0.59px;
 }
 .footer-container .icons {
- 
  gap: 50px;
 }
+
 .footer-container .icons a svg {
   width: 30px;
   height: 30px;
