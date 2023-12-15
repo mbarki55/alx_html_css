@@ -427,29 +427,23 @@ left: 13px;
 .footer-container {
   background: #071629;
   padding: 5rem 0rem;
- 
-
 }
 .footer-container .logo {
   display: flex;
   flex-direction: row;
-
 }
 .logo img {
   width: 169px;
-height: 30px;
-
-padding: 0.02px, 0px, 0.52px, 0.59px;
-
+  height: 30px;
+  padding: 0.02px, 0px, 0.52px, 0.59px;
 }
 .footer-container .icons {
- margin-left:700px;
+ 
+ gap: 50px;
 }
-.footer-container .icons a {
+.footer-container .icons a svg {
   width: 30px;
-height: 30px;
-top: 90px;
-left: 1120px;
-
-
+  height: 30px;
+  top: 90px;
+  left: 1120px;
 }
